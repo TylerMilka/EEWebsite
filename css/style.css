@@ -11,10 +11,10 @@ body{
 	background-color: #cccccc;
 }
 
-.site-container{
+/*.site-container{
 	width: 100%;
 	overflow: hidden;
-}
+}*/
 
 /*footer{
 }*/
@@ -61,13 +61,31 @@ body{
 }
 
 #freeestimates {
-	margin-left: 55px;
-	position: absolute;
-	z-index: +1;
-	margin-top: 50px;
+ 	z-index: +1;
+ 	position: absolute;
+	margin-top: 0px;
 	transform: rotate(-20deg);
-	max-width:150px;
-	max-height:150px;
+	max-width:120px;
+	max-height:120px;
+}
+#servicepiccontainer {
+	text-align: center;
+	width: 70%;
+}
+#servicepiccontainer2 {
+	text-align: left;
+	width: 100%;
+	float: left;
+}
+#servicepictures {
+	max-width:200px;
+	max-height:200px;
+
+}
+#servicepictures2 {
+	max-width:300px;
+	max-height:300px;
+
 }
 
 #logothumbnail{
@@ -94,11 +112,7 @@ body{
 	float: right;
 }
 
-#servicepictures {
-	max-width:200px;
-	max-height:200px;
 
-}
 
 
 
@@ -110,7 +124,17 @@ body{
 #logo {
 	display: none;
 }
-
+#freeestimates {
+	display: none;
+}
+#servicepictures {
+	max-width: 300px;
+	max-height: 300px;
+}
+#servicepiccontainer {
+	text-align: center;
+	width: 100%;	
+}
 
 
 @media only screen (max-width: 768px) {
