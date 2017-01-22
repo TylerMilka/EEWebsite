@@ -52,17 +52,28 @@ body{
 #logo {
 	margin-left: 40%;
 	margin-right: 40%;
-	margin-top: 92px;
+	margin-top: 0px;
 	position: absolute;
 	z-index: +1;
 	float: center;
 	max-width:260px;
+	max-height:240px;
+}
+#logo2 {
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 92px;
+	position: absolute;
+	z-index: +1;	
+	float: center;
+	max-width:260px;
 	max-height:300px;
+	display: none;
 }
 
 #freeestimates {
  	z-index: +1;
- 	position: absolute;
+ 	position: absolute
 	margin-top: 0px;
 	transform: rotate(-20deg);
 	max-width:120px;
@@ -70,16 +81,18 @@ body{
 }
 #servicepiccontainer {
 	text-align: center;
-	width: 70%;
+	width: 80%;
+
 }
 #servicepiccontainer2 {
 	text-align: left;
-	width: 100%;
+	width: 80%;
 	float: left;
 }
 #servicepictures {
 	max-width:200px;
 	max-height:200px;
+
 
 }
 #servicepictures2 {
@@ -111,8 +124,20 @@ body{
 	position: inline-text;
 	float: right;
 }
+#contactsidebar {
+	border-width: 3px;
+	border-color: blue;
+}
 
+#greenlayer{
+ width: 75%;
+ text-align: left;
 
+}
+#servicepicturesindex{
+	width: 100%;
+	
+}
 
 
 
@@ -130,14 +155,21 @@ body{
 #servicepictures {
 	max-width: 300px;
 	max-height: 300px;
+	border-color: green;
+	border-width: 5px;
 }
 #servicepiccontainer {
 	text-align: center;
 	width: 100%;	
+
 }
 
 
 @media only screen (max-width: 768px) {
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 680px) {
 
+#logo2 {
+
+display: unset;
+}
